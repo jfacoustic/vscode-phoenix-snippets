@@ -1,5 +1,4 @@
 {
-  // Elixir Snippets
   "inspect": {
     "prefix": "i",
     "body": ["inspect($1)$0"],
@@ -28,8 +27,6 @@
       "end"
     ]
   },
-
-  // Phoenix Snippets
   "Phoenix Controller": {
     "prefix": "co",
     "body": [
@@ -79,8 +76,6 @@
     "prefix": "sl",
     "body": ["~L\"\"\"", "\t<div>$0</div>", "\"\"\""]
   },
-
-  // LiveView Snippets
   "LiveView assign": {
     "prefix": "a",
     "body": ["assign(socket, ${1:state}: $1)$0"],
